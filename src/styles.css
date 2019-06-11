@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  background-color: #0062FF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  background-color: #94BDF2;
+  border-radius: 10px;
+  border: none;
+  color: #000;
+  padding: 7px 10px;
+}
+
+label {
+  color: #fff;
+  margin-right: 4px;
+}
+
+.questions input {
+  margin-right: 20px;
+}
+
+.questions button {
+  margin-top: 20px;
+}

@@ -1,0 +1,17 @@
+.scores {
+  color: #fff;
+  min-width: 250px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.score-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  margin-bottom: 7px;
+}

@@ -1,0 +1,27 @@
+<div class="results">
+<h1>Results</h1>
+
+<div>
+<p>{{ currentuser }}'s Score: {{ newScore }}  </p>
+
+
+</div>
+
+<section>
+<h2>Correct Answers</h2>
+
+<div *ngFor="let question of questions">
+<p> {{  question.question_name }} </p>
+<p> {{ question.choice_1 }} </p>
+<p> {{ question.choice_2 }} </p>
+<p> {{ question.choice_3 }} </p>
+<p> {{ question.choice_4 }} </p>
+<p class="correct">CORRECT ANSWER: {{ question.answer }} </p>
+
+</div>
+
+</section>
+
+<a routerLink="/scores" routerLinkActive="active">Compare Scores</a>
+
+</div>
